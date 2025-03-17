@@ -21,7 +21,8 @@ int main()
             case 0: //退出系统
                 wm.exitSystem();
                 break;
-            case 1:
+            case 1://添加职工
+                wm.addEmp();
                 break;
             case 2:
                 break;
