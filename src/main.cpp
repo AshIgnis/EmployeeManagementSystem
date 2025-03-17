@@ -24,17 +24,23 @@ int main()
             case 1://添加职工
                 wm.addEmp();
                 break;
-            case 2:
+            case 2://显示职工
+                wm.showEmp();
                 break;
-            case 3:
+            case 3://删除职工
+                wm.delEmp();
                 break;
-            case 4:
+            case 4://修改职工
+                wm.modEmp();
                 break;
-            case 5:
+            case 5://查找职工
+                wm.findEmp();
                 break;
-            case 6:
+            case 6://排序职工
+                wm.sortEmp();
                 break;
-            case 7:
+            case 7://清空文件
+                wm.cleanFile();
                 break;
             default:
                 system("cls");
